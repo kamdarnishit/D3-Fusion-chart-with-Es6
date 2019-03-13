@@ -1,0 +1,15 @@
+{
+  "name": "marfeel-test",
+  "version": "1.0.0",
+  "description": "Marfeel Senior Javascript Developer Test",
+  "main": "index.js",
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "sass": "node-sass src/styles/sass -watch -o src/styles/",
+    "test": "jasmine"
+  },
+  "author": "Nishit Kamdar"
+}

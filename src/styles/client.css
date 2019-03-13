@@ -1,0 +1,76 @@
+/* line 1, src/styles/sass/client.scss */
+.chart-container {
+  width: 440px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto; }
+  /* line 6, src/styles/sass/client.scss */
+  .chart-container .chart-slider {
+    display: flex;
+    overflow-x: auto;
+    border-radius: 5px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-points-x: repeat(400px);
+    scroll-snap-type: mandatory; }
+  /* line 15, src/styles/sass/client.scss */
+  .chart-container .chart-element-wrapper {
+    flex-shrink: 0;
+    width: 400px;
+    height: 352px;
+    background: #f9f9f9;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    padding: 20px; }
+    /* line 25, src/styles/sass/client.scss */
+    .chart-container .chart-element-wrapper.active {
+      display: block; }
+    /* line 28, src/styles/sass/client.scss */
+    .chart-container .chart-element-wrapper chart-element {
+      position: relative; }
+      /* line 30, src/styles/sass/client.scss */
+      .chart-container .chart-element-wrapper chart-element.active {
+        position: relative;
+        display: block;
+        padding: 20px; }
+
+/* line 38, src/styles/sass/client.scss */
+a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative; }
+
+/* line 50, src/styles/sass/client.scss */
+a:active {
+  background: #000 !important; }
+
+/* line 53, src/styles/sass/client.scss */
+a:focus {
+  background: #000 !important; }
+
+/* line 56, src/styles/sass/client.scss */
+.chart-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+  /* line 60, src/styles/sass/client.scss */
+  .chart-pagination .pagination {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: 1px solid #dad2d2;
+    background: #bccdc5;
+    margin-right: 8px;
+    cursor: pointer; }
+    /* line 68, src/styles/sass/client.scss */
+    .chart-pagination .pagination.active {
+      background: #333333; }

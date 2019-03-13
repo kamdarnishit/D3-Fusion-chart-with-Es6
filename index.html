@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Marfeel Test</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet'>
+        <link rel="stylesheet" href="src/styles/client.css">
+    </head>
+    <body>
+        <div class="chart-container">
+            <div class="chart-slider">
+                <div class="chart-element-wrapper" id="slide-1">
+                    <chart-element class="chart-element" id="chart-element-0" type="revenue"></chart-element>
+                </div>
+                <div class="chart-element-wrapper" id="slide-2">
+                    <chart-element class="chart-element" id="chart-element-1" type="impressions"></chart-element>
+                </div>
+                <div class="chart-element-wrapper" id="slide-3">
+                    <chart-element class="chart-element" id="chart-element-2" type="visits"></chart-element>
+                </div>
+            </div>
+            <div class="chart-pagination">
+                <a class="pagination active" id="pagination-0" href="#slide-1"></a>
+                <a class="pagination" id="pagination-1" href="#slide-2"></a>
+                <a class="pagination" id="pagination-2" href="#slide-3"></a>
+            </div>
+        </div>
+        <script type="module" src="src/js/client.js"></script>
+    </body>
+</html>
