@@ -1,4 +1,4 @@
-# Marfeel Senior Javascript Developer Test
+# D3 Fusion chart with Es6 features
 
 Javascript test for Marfeel
 
