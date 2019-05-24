@@ -231,7 +231,7 @@ class ChartElement extends HTMLElement {
         const _parent = this;
 
         let xhr = new XMLHttpRequest();
-        xhr.open('GET', `http://jsonstub.com/api/marfeel/statistics/${this.type}`);
+        xhr.open('GET', `https://jsonstub.com/api/marfeel/statistics/${this.type}`);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.setRequestHeader('JsonStub-User-Key', 'a13d05df-bfb5-4361-965e-c1a9b7d3c9f8');
         xhr.setRequestHeader('JsonStub-Project-Key', '33b33a5d-e16a-497c-92be-4d3fa031b982');
