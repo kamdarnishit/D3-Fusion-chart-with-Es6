@@ -1,6 +1,6 @@
 # D3 Fusion chart with Es6 features
 
-Javascript test for Marfeel
+Fusion of Line Area and Donout chart
 
 ## Getting Started
 
